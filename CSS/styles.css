@@ -341,13 +341,15 @@ footer{
 .Tercer-Titulo-Info{
     font-size: 50px;
     border: black 6px solid;
-    padding-left: 37%;
+    padding-left: 35%;
     color: black;
 }
 
 .Img-Titulo-Coder{
     margin-left: 27%;
     margin-top: 2%;
+    width: 50%;
+    height: 50%;
 }
 
 .Footer-Info{
