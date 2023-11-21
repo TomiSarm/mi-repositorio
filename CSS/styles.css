@@ -1553,6 +1553,22 @@ footer{
             margin: 2% 1% 10% 75%;
         }
 
+        .Titulo-Exp {
+            font-size: 85px;
+        }
+        
+        .Titulo-Pagina-Web-Exp{
+            font-size: 60px;
+        }
+
+        .Titulo-Contactame-Exp{
+            margin: 1% 0 1% 0%;
+        }
+
+        .Boton-Enviar-Exp{
+            margin: 2% 1% 10% 75%;
+        }
+
         .Titulo-Serv{
             font-size: 80px;
         }
@@ -1606,4 +1622,299 @@ footer{
             margin: 2% 1% 10% 75%;
         }
     }
+    @media only screen and (min-width: 601px) and (max-width: 768px){
+        p{
+            font-size: 15px;
+        }
     
+        .Titulo-Principal{
+            grid-template-rows: 1fr ;
+        }
+    
+        .Primer-Titulo{
+            grid-column: 1 / 1;
+            grid-row: 1 / 1;
+            font-size: 25px;
+        }
+    
+        .Lorem{
+            grid-column: 1 / 1;
+            grid-row: 1 / 1;
+            margin-top: 10%;
+        }
+    
+        .Boton-Info{
+            font-size: 20px;
+            margin-top: 45%;
+            padding: 1%;
+            width: 40%;
+            grid-column: 1 / 1;
+            grid-row: 1 / 1;
+        }
+    
+        .Img-Oficina{
+            grid-column: 2 / 2;
+            grid-row: 1 / 1;
+            width: 100%;
+            height: 90%;
+        }
+        
+        .Titulo-Secundario{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            margin-top: 20%;
+        }
+              
+        .Segundo-Titulo{
+            color: #8e8e8e;
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            font-size: 30px;
+        }
+    
+        .Lorem-Exp{
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            margin-top: 15%;
+        }
+        
+        .Img-Experiencia{
+         width: 100%;
+         height: 100%;
+         grid-column: 1 / 2;
+         grid-row: 1 / 2;
+         margin-left: 1%;
+        }
+        
+        .Boton-Experiencia{
+           grid-column: 2 / 3;
+           grid-row: 1 / 2;
+           margin-left: 60%;
+           margin-top: 55%;
+           padding-top: 1%;
+           width: 40%;
+           font-size: 20px;
+        }
+
+        .Servicios{
+            display: grid;
+            grid-template-columns: 1fr  ;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+            margin-top: 10%;
+        }
+        
+        .Borde-Titulo-Servicios{
+            border: white 2px solid;
+            width: 100%;
+            height: 50%;
+            grid-column: 1 / 3;
+            grid-row: 1 / 1;
+        }
+        
+        .Titulo-Servicios{
+            grid-column: 1 / 1;
+            grid-row: 1 / 1;
+            margin-left: 25%;
+            margin-top: 5%;
+            font-size: 95px;
+        }
+        
+        .Servicio-Mensual{
+            width: 70%;
+            height: 90%;
+            margin-left: 15%;
+            margin-top: 4%;
+            grid-column: 1 / 1;
+            grid-row: 2 / 4;
+            background-color: #474747;
+        }
+        
+        .Servicio-Anual{
+            width: 70%;
+            height: 90%;
+            margin-top: 4%;
+            margin-left: 15%;
+            grid-column: 1 / 1;
+            grid-row: 5 / 8;
+            background-color: #474747;
+        }
+        
+        .Titulo-Servicio-Mensual{
+            grid-column: 1 / 2;
+            grid-row: 2 / 2;
+            margin-left: 30%;
+            margin-top: 5%;
+            font-size: 85px;
+        }
+        
+        .Titulo-Servicio-Anual{
+            grid-column: 1 / 1;
+            grid-row: 5 / 6;
+            margin-left: 38%;
+            margin-top: 5%;
+            font-size: 85px;
+        }
+
+        .Texto-Servicio-Mensual{
+            grid-column: 1 / 2;
+            grid-row: 2 / 4;
+            margin-left: 16%;
+            padding-top: 25%;
+            font-size: 20px;
+        }
+        
+        .Texto-Servicio-Anual{
+            grid-column: 1 / 1;
+            grid-row: 5 / 6;
+            margin-left: 16%;
+            padding-top: 22%;
+            font-size: 20px;
+        }
+        
+        .Boton-Servicios-Uno{
+            grid-column: 1 / 2;
+            grid-row: 3 / 4;
+            margin: 0% 25% 40% 25%;
+            padding-top: 1%;
+            font-size: 35px;
+        }
+        
+        .Boton-Servicios-Dos{
+            grid-column: 1 / 1;
+            grid-row: 6 / 6;
+            margin: 0% 25% 40% 25%;
+            padding-top: 1%;
+            font-size: 35px;
+
+        }
+        
+        .Titulo-Contactame{
+            margin: 1% 0 1% 10%;
+        }
+
+        .Boton-Enviar{
+            margin: 2% 1% 10% 75%;
+        }
+
+        .Titulo-Principal-Info{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
+
+        .Primer-Titulo-Info{
+            font-size: 30px;
+        }
+        
+        .Img-Oficina-Info{
+            width: 100%;
+            height: 50%;
+            grid-column: 2 / 3;
+            grid-row: 1 / 1;
+        }
+        
+        .Lorem-Titulo-Principal-Info{
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            margin-top: 12%;
+            margin-bottom: 10%;
+            font-size: 20px;
+        }
+
+        .Titulo-Secundario-Info{
+            grid-template-rows: 60% 1fr;
+        }
+
+        .Segundo-Titulo-Info{
+            font-size: 40px;
+        }
+        
+        .Lorem-Titulo-Secundario-Info{
+            grid-column: 2 / 3;
+            grid-row: 1 / 1;
+            margin-top: 15%;
+            font-size: 18px;
+        }
+        
+        .Tercer-Titulo-Info{
+            font-size: 50px;
+            padding-left: 22%;
+        }
+
+        .Titulo-Contactame-Info{
+            margin: 1% 0 1% 10%;
+        }
+        
+        .Boton-Enviar-Info{
+            margin: 2% 1% 10% 75%;
+        }
+
+        .Titulo-Exp {
+            font-size: 100px;
+        }
+        
+        .Titulo-Pagina-Web-Exp{
+            font-size: 70px;
+        }
+
+        .Titulo-Contactame-Exp{
+            margin: 1% 0 1% 10%;
+        }
+
+        .Boton-Enviar-Exp{
+            margin: 2% 1% 10% 75%;
+        }
+
+        .Titulo-Serv{
+            font-size: 80px;
+        }
+        
+        .Servicio-Mensual-Serv{
+            width: 95%;
+            height: 250px;
+            margin-left: 3%;
+        }
+        
+        .Servicio-Anual-Serv{
+            width: 93%;
+            height: 250px;
+            margin-left: 5%;
+        }
+        
+        .Titulo-Servicio-Mensual-Serv{
+            margin-left: 35%;
+            font-size: 35px;
+        }
+        
+        .Titulo-Servicio-Anual-Serv{
+            margin-left: 40%;
+            font-size: 35px;    
+        }
+        
+        .Texto-Servicio-Mensual-Serv{
+            padding-top: 15%;
+            margin-left: 6%;
+            font-size: 16px;
+        }
+        
+        .Texto-Servicio-Anual-Serv{
+            padding-top: 15%;
+            margin-left: 7%;
+            font-size: 17px;
+        }
+        
+        .Titulo-Contactame-Serv{
+            margin: 1% 0 1% 10%;
+        }
+        
+        .Boton-Enviar-Serv{
+            margin: 2% 1% 10% 75%;
+        }
+
+        .Titulo-Contactame-Con{
+            margin: 1% 0 1% 10%;
+        }
+        
+        .Boton-Enviar-Con{
+            margin: 2% 1% 10% 75%;
+        }
+    }
