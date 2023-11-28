@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.Body{
+    background-color: #242424;
+}
+
+nav{
+    padding-top: 0px;
+    margin-top: 0px;
+
+    .Logo{
+        width: 100px;
+        height: 100px;
+        left: 0px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    
+    .nav-item{
+        margin-left: 15%;
+        margin-right: 15%;
+        padding-left: 15%;
+        padding-right: 15%;
+        border: #6b6b6b 2px solid;
+        background-color: #8e8e8e;
+    }    
+}
+
+.Titulo-Principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 10% 14%;
+    margin-top: 2%;
+    margin-left: 1%;
+    color: black;
+
+    .Primer-Titulo{
+        color: #8e8e8e;
+    }
+
+    .Img-Oficina{
+        width: 98%;
+        height: 400px;
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+        border: black 4px solid;
+    }
+
+    .Boton-Info{
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        background-color: #8E8FA2;
+        border: 2px black solid;
+        width: 15%;
+        margin-top: 4%;
+    }
+}
+
+.Titulo-Secundario{
+    display: grid;
+    grid-template-columns: 1fr 1fr 7.5%;
+    grid-template-rows: 6% 14% 5%;
+    text-align: end;
+    color: black;
+    margin-right: 1%;
+
+    .Segundo-Titulo{
+        color: #8e8e8e;
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+    }
+    
+    .Lorem-Exp{
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+    }
+    
+    .Img-Experiencia{
+     width: 120%;
+     height: 260%;
+     grid-column: 1 / 2;
+     grid-row: 1 / 3;
+     margin-left: 20px;
+     border: black 4px solid;
+    }
+    
+    .Boton-Experiencia{
+       border: 2px black solid;
+       text-decoration: none;
+       color: black;
+       background-color: #8E8FA2;
+       grid-column: 3 / 4;
+       grid-row: 3 / 4;
+       width: 100%;
+       text-align: center;
+    }
+}
+
+
+.Servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15% 1fr 1fr 1fr 1fr;
+
+    .Borde-Titulo-Servicios{
+        border: white 2px solid;
+        width: 100%;
+        grid-column: 1 / 4;
+        grid-row: 1 / 1;
+    }
+    
+    .Titulo-Servicios{
+        grid-column: 2 / 3;
+        grid-row: 1 / 1;
+        margin-left: 28%;
+        margin-top: 3%;
+        color: #8e8e8e;
+        font-size: 50px;
+    }
+    
+    .Servicio-Mensual{
+        width: 75%;
+        height: 90%;
+        margin-left: 18%;
+        margin-top: 4%;
+        grid-column: 1 / 2;
+        grid-row: 2 / 6;
+        border: 2px solid black;
+        background-color: #474747;
+    }
+    
+    .Servicio-Anual{
+        width: 75%;
+        height: 90%;
+        margin-top: 4%;
+        grid-column: 3 / 4;
+        grid-row: 2 / 6;
+        border: 2px solid black;
+        background-color: #474747;
+    }
+    
+    .Titulo-Servicio-Mensual{
+        display: inline;
+        grid-column: 1 / 2;
+        grid-row: 2 / 2;
+        margin-left: 38%;
+        margin-top: 5%;
+        font-size: 50px;
+        color: #8e8e8e;
+    }
+    
+    .Titulo-Servicio-Anual{
+        display: inline;
+        grid-column: 3 / 4;
+        grid-row: 2 / 2;
+        margin-left: 25%;
+        margin-top: 5%;
+        font-size: 50px;
+        color: #8e8e8e;
+    }
+    .Texto-Servicio-Mensual{
+        display: inline;
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+        margin-left: 20%;
+        padding-top: 25%;
+    }
+    
+    .Texto-Servicio-Anual{
+        display: inline;
+        grid-column: 3 / 4;
+        grid-row: 2 / 4;
+        margin-left: 2%;
+        padding-top: 22%;
+    }
+    
+    .Boton-Servicios-Uno{
+        grid-column: 1 / 2;
+        grid-row: 4 / 4;
+        margin: 10% 30% 5% 38%;
+        padding-top: 2%;
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        background-color: #8E8FA2;
+        text-align: center;
+    }
+    
+    .Boton-Servicios-Dos{
+        grid-column: 3 / 4;
+        grid-row: 4 / 4;
+        margin-left: 20%;
+        margin-right: 45%;
+        margin-bottom: 5%;
+        margin-top: 10%;
+        padding-top: 2%;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        background-color: #8E8FA2;
+    }
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    .Borde-Titulo-Contactame{
+        border: white 2px solid;
+        grid-column: 1 / 4;
+        grid-row: 1 / 1;
+    }
+    
+    .Titulo-Contactame{
+        color: white;
+        margin: 1% 0 1% 35%;
+        grid-column: 2 / 3;
+        grid-row: 1 / 1;
+        font-size: 250%;
+    }
+    
+    #Caja-de-Texto-Contacto{
+       grid-column: 2 / 3;
+       grid-row: 2 / 2;
+       height: 50px;
+       width: 100%;
+       margin-top: 2%;
+    }
+    
+    .Boton-Enviar{
+        grid-column: 2 / 3;
+        grid-row: 3 / 3;
+        margin: 2% 1% 2% 80%;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        background-color: #8E8FA2;
+    }
+    
+    .Logo-Instagram{
+        width: 50px;
+        height: 50px;
+        margin-left: 1%;
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+    
+    .Logo-Ig{
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        margin-right: 90%;
+        margin-left: 1%;
+    }    
+}
