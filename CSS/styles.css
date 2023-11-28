@@ -759,6 +759,7 @@ footer{
     margin-right: 90%;
     margin-left: 1%;
 }
+
 @media only screen and (max-width: 320px){
         p{
             font-size: 10px;
@@ -1052,6 +1053,7 @@ footer{
             margin: 2% 1% 10% 75%;
         }
     }
+
     @media only screen and (min-width:321px) and (max-width: 480px){
         p{
             font-size: 15px;
@@ -1333,6 +1335,7 @@ footer{
             margin: 2% 1% 10% 75%;
         }
     }
+    
     @media only screen and (min-width:481px) and (max-width: 600px){
 
         p{
@@ -1622,6 +1625,7 @@ footer{
             margin: 2% 1% 10% 75%;
         }
     }
+    
     @media only screen and (min-width: 601px) and (max-width: 768px){
         p{
             font-size: 15px;
@@ -1917,6 +1921,7 @@ footer{
             margin: 2% 1% 10% 75%;
         }
     }
+    
     @media only screen and (min-width: 769px) and (max-width: 1024px){
         .Titulo-Principal{
             grid-template-rows: 1fr ;
@@ -2204,6 +2209,7 @@ footer{
             margin: 2% 1% 10% 75%;
         }
     }
+    
     @media only screen and (min-width: 1025px) and (max-width: 1200px){
         .Boton-Info{
             margin-top: 5%;

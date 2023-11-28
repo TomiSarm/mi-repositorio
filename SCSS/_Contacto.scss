@@ -1,0 +1,142 @@
+.Body-Con{
+    background-color: #b3b3b3;
+
+    .Main-Con{
+        margin-left: 1%;
+
+        .Section-1-Con{
+
+            .Titulo-Con{
+                display: flex;
+                flex-direction: column;
+                height: 120px;
+                align-items: center;
+                justify-content: center;
+                font-size: 500%;
+                color: black;
+            }
+        }
+
+        .Section-2-Con{
+
+            .Titulo-Whatsapp-Con{
+                font-size: 300%;
+                color: black;
+            }
+            
+            .Logo-Whatsapp{
+                width: 10%;
+                height: 1%;
+            }
+            
+            .Link-Telefono{
+                text-decoration: none;
+                font-size: 200%;
+            }
+        }
+
+        .Section-3-Con{
+
+            .Titulo-Mail-Con{
+                font-size: 300%;
+                color: black;
+            }
+            
+            .Logo-Mail{
+                width: 10%;
+                height: 5%;
+            }
+            
+            .Link-Mail{
+                text-decoration: none;
+                font-size: 200%;
+                display: flex;
+                flex-wrap: wrap;
+                display: inline;
+            }
+        }
+
+        .Section-4-Con{
+
+            .Titulo-Redes-Con{
+                font-size: 300%;
+                color: black;
+            }
+            
+            .Logo-Instagram-Con{
+                width: 10%;
+                height: 5%;
+            }
+            
+            .Link-Instagram{
+                text-decoration: none;
+                font-size: 200%;
+            }
+            
+            .Logo-Twitter{
+                width: 10%;
+                height: 1%;
+            }
+            
+            .Link-Twitter{
+                text-decoration: none;
+                font-size: 200%;
+            }
+        }
+
+        .Footer-Con{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            margin-top: 5%;
+
+            .Borde-Titulo-Contactame-Con{
+                border: white 2px solid;
+                grid-column: 1 / 4;
+                grid-row: 1 / 1;
+            }
+            
+            .Titulo-Contactame-Con{
+                margin: 1% 0 1% 35%;
+                grid-column: 2 / 3;
+                grid-row: 1 / 1;
+                font-size: 250%;
+                color: black;
+            }
+            
+            #Caja-de-Texto-Contacto-Con{
+                grid-column: 2 / 3;
+                grid-row: 2 / 2;
+                height: 50px;
+                width: 100%;
+                margin-top: 2%;
+            }
+             
+             .Boton-Enviar-Con{
+                grid-column: 2 / 3;
+                grid-row: 3 / 3;
+                margin: 2% 1% 2% 80%;
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                border: 2px solid black;
+                background-color: #8E8FA2;
+            }
+             
+             .Logo-Instagram-Dos-Con{
+                width: 50px;
+                height: 50px;
+                margin-left: 1%;
+                grid-column: 1 / 2;
+                grid-row: 4 / 5;
+            }
+             
+             .Logo-Ig-Con{
+                grid-column: 1 / 2;
+                grid-row: 4 / 5;
+                margin-right: 90%;
+                margin-left: 1%;
+            }
+        }
+    }
+}
