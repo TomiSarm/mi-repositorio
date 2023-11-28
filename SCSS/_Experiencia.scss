@@ -1,0 +1,93 @@
+.Body-Exp{
+    background-color: #6b6b6b;
+
+    .Titulo-Exp {
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+        align-items: center;
+        justify-content: center;
+        font-size: 100px;
+        color: black;
+    }
+
+    .Titulo-Pagina-Web-Exp{
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+        align-items: center;
+        font-size: 90px;
+        color: black;
+    }
+
+    .Titulo-URL{
+
+        .Titulo-Pagina-Web-Exp{
+            display: flex;
+            flex-direction: column;
+            height: 120px;
+            align-items: center;
+            font-size: 90px;
+            color: black;
+        }
+        
+        .Img-Exp{
+            width: 100%;
+        }
+    }
+
+    .Footer-Exp{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-top: 5%;
+
+        .Titulo-Contactame-Exp{
+            margin: 1% 0 1% 30%;
+            grid-column: 2 / 3;
+            grid-row: 1 / 1;
+            font-size: 250%;
+            color: black;
+        }
+        
+        .Borde-Titulo-Contactame-Exp{
+            border: white 2px solid;
+            grid-column: 1 / 4;
+            grid-row: 1 / 1;
+        }
+        
+        #Caja-de-Texto-Contacto-Exp{
+            grid-column: 2 / 3;
+            grid-row: 2 / 2;
+            height: 50px;
+            width: 100%;
+            margin-top: 2%;
+        }
+        
+        .Boton-Enviar-Exp{
+            grid-column: 2 / 3;
+            grid-row: 3 / 3;
+            margin: 2% 1% 2% 80%;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            border: 2px solid black;
+            background-color: #8E8FA2;
+        }
+        
+        .Logo-Ig-Exp{
+            grid-column: 1 / 2;
+            grid-row: 4 / 5;
+            margin-right: 90%;
+            margin-left: 1%;
+        }
+        
+        .Logo-Instagram-Exp{
+            width: 50px;
+            height: 50px;
+            margin-left: 1%;
+            grid-column: 1 / 2;
+            grid-row: 4 / 5;
+        }        
+    }
+}
